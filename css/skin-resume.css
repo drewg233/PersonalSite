@@ -3502,7 +3502,7 @@ only screen and (				min-resolution: 2dppx) {
 		background-image: url(../images/resume/generic/hero-half-1@2x.jpg);
 	}
 	.hero-5-2 .media-column{
-		background-image: url(../images/resume/generic/hero-half-2@2x.jpg);
+		background-image: url(../images/mainImageBW.jpg);
 	}
 
 	/* Call to Action Sections */
