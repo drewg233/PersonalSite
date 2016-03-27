@@ -11,10 +11,12 @@
   <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
   <!-- Font -->
   <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700%7CRoboto:300,400,500,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   
   <!-- Css -->
   <link rel="stylesheet" href="css/core.min.css" />
   <link rel="stylesheet" href="css/skin.css" />
+  <link rel="stylesheet" href="css/main.css" />
 
   <!--[if lt IE 9]>
       <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -23,53 +25,7 @@
 </head>
 
 <style type="text/css">
-  .arrows {
-    width: 60px;
-    height: 72px;
-    position: absolute;
-    left: 50%;
-    margin-left: -30px;
-    bottom: 20px;
-  }
 
-  .arrows path {
-    stroke: #FC2E23;
-    fill: transparent;
-    stroke-width: 1px;  
-    animation: arrow 2s infinite;
-    -webkit-animation: arrow 2s infinite; 
-  }
-
-  @keyframes arrow
-  {
-  0% {opacity:0}
-  40% {opacity:1}
-  80% {opacity:0}
-  100% {opacity:0}
-  }
-
-  @-webkit-keyframes arrow /*Safari and Chrome*/
-  {
-  0% {opacity:0}
-  40% {opacity:1}
-  80% {opacity:0}
-  100% {opacity:0}
-  }
-
-  .arrows path.a1 {
-    animation-delay:-1s;
-    -webkit-animation-delay:-1s; /* Safari 和 Chrome */
-  }
-
-  .arrows path.a2 {
-    animation-delay:-0.5s;
-    -webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
-  }
-
-  .arrows path.a3 { 
-    animation-delay:0s;
-    -webkit-animation-delay:0s; /* Safari 和 Chrome */
-  }
 </style>
 
 
@@ -103,11 +59,8 @@
                     </a>
                   </li>
 
-
                 </ul>
               </nav>
-
-
 
             </div>
           </div>
@@ -128,32 +81,16 @@
           <div class="row">
             <div class="column width-12">
               <div class="title-container">
-                <div class="title-container-inner center" style="padding-bottom: 200px;">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Swift_logo.svg/2000px-Swift_logo.svg.png" style="width: 200px; padding-bottom: 75px;"><br/>
-                  <h1 class="inline" style="color:#000; font-size: 6.5rem">Swift Enlightenment</h1>
-                  <p style="font-size: 20px; padding-left: 100px; padding-right: 100px;">I started this this blog to better expand my knowledge of Swift and hope to help others do the same. I have already known Swift but will start from the basics. This was inspired by a couple other blogs and repos, just decided to make my own, and open source :)</p>
+                <div class="title-container-inner center paddingbottom200">
+                  <img class="swift_logo" src="images/swift_logo.png"><br/>
+                  <h1 class="inline" style="color:#000; font-size: 6.5rem;">Swift Enlightenment</h1>
+                  <p class="about_section">I started this this blog to better expand my knowledge of Swift and hope to help others do the same. I have already known Swift but will start from the basics. This was inspired by a couple other blogs and repos, just decided to make my own, and <a target="_blank" href="https://github.com/drewg233/SwiftEnlightenment">open source</a> <i class="fa fa-smile-o"></i></p>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <!-- Intro Title Section 2 End -->
-
-
-
-        <style type="text/css">
-          .custom-text {
-            padding: 1.3rem 0;
-            border: none;
-            border-bottom: 1px solid #eee;
-            background-color: transparent;
-            color: #666;
-            font-size: 1.1rem;
-            font-weight: 400;
-            text-transform: uppercase;
-            margin-bottom: 0px;
-          }
-        </style>
 
 
         <!-- Project 1 -->
@@ -191,17 +128,17 @@
               </li>
 
             </ul>
-            <p><a href="">View Project</a></p>
+            
           </div>
             <div class="column width-5 offset-1">
-              <img style="width:300px;" src="images/gifs/Project1.gif">
+              <img class="width300" src="images/gifs/Project1.gif">
             </div>
           </div>
 
 
           <!-- Project 2 -->
           <div class="row">
-            <div class="column width-12" style="padding-top: 100px;">
+            <div class="column width-12 paddingtop100">
               <div>
                 <div id="boxes" class="divider"></div>
               </div>
@@ -234,17 +171,17 @@
                 </li>
 
               </ul>
-              <p><a href="">View Project</a></p>
+              
             </div>
               <div class="column width-5 offset-1">
-                <img style="width:300px;" src="images/gifs/Project2.gif">
+                <img class="width300" src="images/gifs/Project2.gif">
               </div>
             </div>
 
 
             <!-- Project 3 -->
             <div class="row">
-              <div class="column width-12" style="padding-top: 100px;">
+              <div class="column width-12 paddingtop100">
                 <div>
                   <div id="boxes" class="divider"></div>
                 </div>
@@ -277,17 +214,17 @@
                   </li>
 
                 </ul>
-                <p><a href="">View Project</a></p>
+                
               </div>
                 <div class="column width-5 offset-1">
-                  <img style="width:300px;" src="images/gifs/Project3.gif">
+                  <img class="width300" src="images/gifs/Project3.gif">
                 </div>
               </div>
 
 
               <!-- Project 4 -->
               <div class="row">
-                <div class="column width-12" style="padding-top: 100px;">
+                <div class="column width-12 paddingtop100">
                   <div>
                     <div id="boxes" class="divider"></div>
                   </div>
@@ -320,10 +257,10 @@
                     </li>
 
                   </ul>
-                  <p><a href="">View Project</a></p>
+                  
                 </div>
                   <div class="column width-5 offset-1">
-                    <img style="width:300px;" src="images/gifs/Project4.gif">
+                    <img class="width300" src="images/gifs/Project4.gif">
                   </div>
                 </div>
 
@@ -331,7 +268,7 @@
 
               <!-- Project 5 -->
               <div class="row">
-                <div class="column width-12" style="padding-top: 100px;">
+                <div class="column width-12 paddingtop100">
                   <div>
                     <div id="boxes" class="divider"></div>
                   </div>
@@ -357,10 +294,10 @@
                     </li>
 
                   </ul>
-                  <p><a href="">View Project</a></p>
+                  
                 </div>
                   <div class="column width-5 offset-1">
-                    <img style="width:300px;" src="images/gifs/Project5.gif">
+                    <img class="width300" src="images/gifs/Project5.gif">
                   </div>
                 </div>
 
@@ -368,7 +305,7 @@
 
             <!-- Project 6 -->
             <div class="row">
-              <div class="column width-12" style="padding-top: 100px;">
+              <div class="column width-12 paddingtop100">
                 <div>
                   <div id="boxes" class="divider"></div>
                 </div>
@@ -394,10 +331,10 @@
                   </li>
 
                 </ul>
-                <p><a href="">View Project</a></p>
+                
               </div>
                 <div class="column width-5 offset-1">
-                  <img style="width:300px;" src="images/gifs/Project6.gif">
+                  <img class="width300" src="images/gifs/Project6.gif">
                 </div>
               </div>
 
@@ -405,7 +342,7 @@
 
             <!-- Project 7 -->
             <div class="row">
-              <div class="column width-12" style="padding-top: 100px;">
+              <div class="column width-12 paddingtop100">
                 <div>
                   <div id="boxes" class="divider"></div>
                 </div>
@@ -438,17 +375,17 @@
                   </li>
 
                 </ul>
-                <p><a href="">View Project</a></p>
+                
               </div>
                 <div class="column width-5 offset-1">
-                  <img style="width:300px;" src="images/gifs/Project7.gif">
+                  <img class="width300" src="images/gifs/Project7.gif">
                 </div>
               </div>
 
 
           <!-- Project 8 -->
           <div class="row">
-            <div class="column width-12" style="padding-top: 100px;">
+            <div class="column width-12 paddingtop100">
               <div>
                 <div id="boxes" class="divider"></div>
               </div>
@@ -474,17 +411,17 @@
                 </li>
 
               </ul>
-              <p><a href="">View Project</a></p>
+              
             </div>
               <div class="column width-5 offset-1">
-                <img style="width:300px;" src="images/gifs/Project8.gif">
+                <img class="width300" src="images/gifs/Project8.gif">
               </div>
             </div>
 
 
             <!-- Project 9 -->
             <div class="row">
-              <div class="column width-12" style="padding-top: 100px;">
+              <div class="column width-12 paddingtop100">
                 <div>
                   <div id="boxes" class="divider"></div>
                 </div>
@@ -510,17 +447,17 @@
                   </li>
 
                 </ul>
-                <p><a href="">View Project</a></p>
+                
               </div>
                 <div class="column width-5 offset-1">
-                  <img style="width:300px;" src="images/gifs/Project9.gif">
+                  <img class="width300" src="images/gifs/Project9.gif">
                 </div>
               </div>
 
 
             <!-- Project 10 -->
             <div class="row">
-              <div class="column width-12" style="padding-top: 100px;">
+              <div class="column width-12 paddingtop100">
                 <div>
                   <div id="boxes" class="divider"></div>
                 </div>
@@ -539,10 +476,10 @@
                   </li>
 
                 </ul>
-                <p><a href="">View Project</a></p>
+                
               </div>
                 <div class="column width-5 offset-1">
-                  <img style="width:300px;" src="images/gifs/Project10.gif">
+                  <img class="width300" src="images/gifs/Project10.gif">
                 </div>
               </div>
 
@@ -550,7 +487,7 @@
 
             <!-- Project 11 -->
             <div class="row">
-              <div class="column width-12" style="padding-top: 100px;">
+              <div class="column width-12 paddingtop100">
                 <div>
                   <div id="boxes" class="divider"></div>
                 </div>
@@ -569,17 +506,17 @@
                   </li>
 
                 </ul>
-                <p><a href="">View Project</a></p>
+                
               </div>
                 <div class="column width-5 offset-1">
-                  <img style="width:300px;" src="images/gifs/Project11.gif">
+                  <img class="width300" src="images/gifs/Project11.gif">
                 </div>
               </div>
 
 
             <!-- Project 12 -->
             <div class="row">
-              <div class="column width-12" style="padding-top: 100px;">
+              <div class="column width-12 paddingtop100">
                 <div>
                   <div id="boxes" class="divider"></div>
                 </div>
@@ -605,17 +542,17 @@
                   </li>
 
                 </ul>
-                <p><a href="">View Project</a></p>
+                
               </div>
                 <div class="column width-5 offset-1">
-                  <img style="width:300px;" src="images/gifs/Project12.gif">
+                  <img class="width300" src="images/gifs/Project12.gif">
                 </div>
               </div>
 
 
             <!-- Project 13 -->
             <div class="row">
-              <div class="column width-13" style="padding-top: 100px;">
+              <div class="column width-13 paddingtop100">
                 <div>
                   <div id="boxes" class="divider"></div>
                 </div>
@@ -656,10 +593,10 @@
                   
 
                 </ul>
-                <p><a href="">View Project</a></p>
+                
               </div>
                 <div class="column width-5 offset-1">
-                  <img style="width:300px;" src="images/gifs/Project13.gif">
+                  <img class="width300" src="images/gifs/Project13.gif">
                 </div>
               </div>
 
@@ -668,7 +605,7 @@
 
           <!-- Project 14 -->
           <div class="row">
-            <div class="column width-13" style="padding-top: 100px;">
+            <div class="column width-13 paddingtop100">
               <div>
                 <div id="boxes" class="divider"></div>
               </div>
@@ -688,10 +625,10 @@
                 
 
               </ul>
-              <p><a href="">View Project</a></p>
+              
             </div>
               <div class="column width-5 offset-1">
-                <img style="width:300px;" src="images/gifs/Project14.gif">
+                <img class="width300" src="images/gifs/Project14.gif">
               </div>
             </div>
 
@@ -699,7 +636,7 @@
 
             <!-- Project 15 -->
             <div class="row">
-              <div class="column width-12" style="padding-top: 100px;">
+              <div class="column width-12 paddingtop100">
                 <div>
                   <div id="boxes" class="divider"></div>
                 </div>
@@ -732,14 +669,12 @@
                   </li>
 
                 </ul>
-                <p><a href="">View Project</a></p>
+                
               </div>
                 <div class="column width-5 offset-1">
-                  <img style="width:300px;" src="images/gifs/Project15.gif">
+                  <img class="width300" src="images/gifs/Project15.gif">
                 </div>
               </div>
-
-
 
         </div>
 

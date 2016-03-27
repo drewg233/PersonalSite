@@ -1,0 +1,86 @@
+.main_title {
+
+}
+.about_section {
+  font-size: 20px; 
+  padding-left: 100px; 
+  padding-right: 100px;
+}
+.width300 {
+  width: 300px;
+}
+.paddingtop100 {
+  padding-top: 100px;
+}
+.paddingbottom200 {
+  padding-bottom: 200px;
+}
+.swift_logo {
+  width: 200px; 
+  padding-bottom: 75px;
+}
+
+.custom-text {
+  padding: 1.3rem 0;
+  border: none;
+  border-bottom: 1px solid #eee;
+  background-color: transparent;
+  color: #666;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+
+
+
+
+/* Arrows Animation */
+.arrows {
+  width: 60px;
+  height: 72px;
+  position: absolute;
+  left: 50%;
+  margin-left: -30px;
+  bottom: 20px;
+}
+
+.arrows path {
+  stroke: #FC2E23;
+  fill: transparent;
+  stroke-width: 1px;  
+  animation: arrow 2s infinite;
+  -webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+  animation-delay:-1s;
+  -webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+  animation-delay:-0.5s;
+  -webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 { 
+  animation-delay:0s;
+  -webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
