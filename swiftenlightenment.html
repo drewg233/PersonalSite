@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
+  <meta name="twitter:widgets:theme" content="light">
+  <meta property="og:title" content="Andrew Garcia" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="Just another personal portfolio" />
+  <title>Andrew Garcia</title>
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+  <!-- Font -->
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700%7CRoboto:300,400,500,700' rel='stylesheet' type='text/css'>
+  
+  <!-- Css -->
+  <link rel="stylesheet" href="css/core.min.css" />
+  <link rel="stylesheet" href="css/skin.css" />
+
+  <!--[if lt IE 9]>
+      <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+
+<style type="text/css">
+  .arrows {
+    width: 60px;
+    height: 72px;
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+    bottom: 20px;
+  }
+
+  .arrows path {
+    stroke: #FC2E23;
+    fill: transparent;
+    stroke-width: 1px;  
+    animation: arrow 2s infinite;
+    -webkit-animation: arrow 2s infinite; 
+  }
+
+  @keyframes arrow
+  {
+  0% {opacity:0}
+  40% {opacity:1}
+  80% {opacity:0}
+  100% {opacity:0}
+  }
+
+  @-webkit-keyframes arrow /*Safari and Chrome*/
+  {
+  0% {opacity:0}
+  40% {opacity:1}
+  80% {opacity:0}
+  100% {opacity:0}
+  }
+
+  .arrows path.a1 {
+    animation-delay:-1s;
+    -webkit-animation-delay:-1s; /* Safari 和 Chrome */
+  }
+
+  .arrows path.a2 {
+    animation-delay:-0.5s;
+    -webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+  }
+
+  .arrows path.a3 { 
+    animation-delay:0s;
+    -webkit-animation-delay:0s; /* Safari 和 Chrome */
+  }
+</style>
+
+
+
+
+
+
+<body class="shop blog">
+
+
+  <div class="wrapper reveal-side-navigation">
+    <div class="wrapper-inner">
+
+      <!-- Header -->
+      <header class="header header-fixed header-fixed-on-mobile" data-bkg-threshold="100" data-compact-threshold="100">
+        <div class="header-inner">
+          <div class="row nav-bar">
+            <div class="column width-12 nav-bar-inner">
+              <div class="logo">
+                <div class="logo-inner">
+                  <a href="./index.html"><img src="images/logos/AndrewLogoDark.png" alt="Andrew Garcia Logo" /></a>
+                  <a href="./index.html"><img src="images/logos/AndrewLogo.png" alt="Andrew Garcia Logo" /></a>
+                </div>
+              </div>
+              <nav class="navigation nav-block secondary-navigation nav-right">
+                <ul>
+
+                  <li class="aux-navigation hide">
+                    <a href="#" class="navigation-show side-nav-show nav-icon">
+                      <span class="icon-menu"></span>
+                    </a>
+                  </li>
+
+
+                </ul>
+              </nav>
+
+
+
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- Header End -->
+
+      <!-- Content -->
+      <div class="content clearfix">
+
+        <!-- Intro Title Section 2 -->
+        <div class="section-block intro-title-2" style="height: 100vh; background: #F7F9FA;">
+          <svg class="arrows">
+            <path class="a1" d="M0 0 L30 32 L60 0"></path>
+            <path class="a2" d="M0 20 L30 52 L60 20"></path>
+            <path class="a3" d="M0 40 L30 72 L60 40"></path>
+          </svg>
+          <div class="row">
+            <div class="column width-12">
+              <div class="title-container">
+                <div class="title-container-inner center" style="padding-bottom: 200px;">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Swift_logo.svg/2000px-Swift_logo.svg.png" style="width: 200px; padding-bottom: 75px;"><br/>
+                  <h1 class="inline" style="color:#000; font-size: 6.5rem">Swift Enlightenment</h1>
+                  <p style="font-size: 20px; padding-left: 100px; padding-right: 100px;">I started this this blog to better expand my knowledge of Swift and hope to help others do the same. I have already known Swift but will start from the basics. This was inspired by a couple other blogs and repos, just decided to make my own, and open source :)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Intro Title Section 2 End -->
+
+
+
+        <style type="text/css">
+          .custom-text {
+            padding: 1.3rem 0;
+            border: none;
+            border-bottom: 1px solid #eee;
+            background-color: transparent;
+            color: #666;
+            font-size: 1.1rem;
+            font-weight: 400;
+            text-transform: uppercase;
+            margin-bottom: 0px;
+          }
+        </style>
+
+
+        <!-- Project 1 -->
+        <div class="row">
+          <div class="column width-12" style="padding-top: 200px;">
+            <div>
+              <div id="boxes"></div>
+            </div>
+          </div>
+          <div class="column width-4 offset-2">
+            <h2 class="post-title">Project 1 - Tap Counter</h2>
+            <p>A simple tap counter, where you tap on the button and it increments the number. Pressing reset sets the number back to zero.</p>
+            <h4>Utilized</h4>
+            <ul>
+
+              <li>
+                <p class="custom-text">
+                  <span class="icon-plus"></span>
+                  Build an Interface with Labels and Buttons
+                </p>
+              </li>
+
+              <li>
+                <p class="custom-text">
+                  <span class="icon-plus"></span>
+                  Using functions with buttons
+                </p>
+              </li>
+
+              <li>
+                <p class="custom-text">
+                  <span class="icon-plus"></span>
+                  String Interpolation
+                </p>
+              </li>
+
+            </ul>
+            <p><a href="">View Project</a></p>
+          </div>
+            <div class="column width-5 offset-1">
+              <img style="width:300px;" src="images/gifs/Project1.gif">
+            </div>
+          </div>
+
+
+          <!-- Project 2 -->
+          <div class="row">
+            <div class="column width-12" style="padding-top: 100px;">
+              <div>
+                <div id="boxes" class="divider"></div>
+              </div>
+            </div>
+            <div class="column width-4 offset-2">
+              <h2 class="post-title">Project 2 - Show Alert</h2>
+              <p>Pressing a button to makes an alert popup.</p>
+              <h4>Utilized</h4>
+              <ul>
+
+                <li>
+                  <p class="custom-text">
+                    <span class="icon-plus"></span>
+                    Build an Interface with Labels and Buttons
+                  </p>
+                </li>
+
+                <li>
+                  <p class="custom-text">
+                    <span class="icon-plus"></span>
+                    Using functions with buttons
+                  </p>
+                </li>
+
+                <li>
+                  <p class="custom-text">
+                    <span class="icon-plus"></span>
+                    UIAlertController
+                  </p>
+                </li>
+
+              </ul>
+              <p><a href="">View Project</a></p>
+            </div>
+              <div class="column width-5 offset-1">
+                <img style="width:300px;" src="images/gifs/Project2.gif">
+              </div>
+            </div>
+
+
+            <!-- Project 3 -->
+            <div class="row">
+              <div class="column width-12" style="padding-top: 100px;">
+                <div>
+                  <div id="boxes" class="divider"></div>
+                </div>
+              </div>
+              <div class="column width-4 offset-2">
+                <h2 class="post-title">Project 3 - Tip Calculator</h2>
+                <p>Simple Tip Calculator</p>
+                <h4>Utilized</h4>
+                <ul>
+
+                  <li>
+                    <p class="custom-text">
+                      <span class="icon-plus"></span>
+                      CocoaPods
+                    </p>
+                  </li>
+
+                  <li>
+                    <p class="custom-text">
+                      <span class="icon-plus"></span>
+                      mySliderValueChanged
+                    </p>
+                  </li>
+
+                  <li>
+                    <p class="custom-text">
+                      <span class="icon-plus"></span>
+                      UIControlEvents.EditingChanged
+                    </p>
+                  </li>
+
+                </ul>
+                <p><a href="">View Project</a></p>
+              </div>
+                <div class="column width-5 offset-1">
+                  <img style="width:300px;" src="images/gifs/Project3.gif">
+                </div>
+              </div>
+
+
+              <!-- Project 4 -->
+              <div class="row">
+                <div class="column width-12" style="padding-top: 100px;">
+                  <div>
+                    <div id="boxes" class="divider"></div>
+                  </div>
+                </div>
+                <div class="column width-4 offset-2">
+                  <h2 class="post-title">Project 4 - Stopwatch</h2>
+                  <p>A simple stopwatch that can start counting, pause, and reset.</p>
+                  <h4>Utilized</h4>
+                  <ul>
+
+                    <li>
+                      <p class="custom-text">
+                        <span class="icon-plus"></span>
+                        NSTimer
+                      </p>
+                    </li>
+
+                    <li>
+                      <p class="custom-text">
+                        <span class="icon-plus"></span>
+                        scheduledTimerWithTimeInterval
+                      </p>
+                    </li>
+
+                    <li>
+                      <p class="custom-text">
+                        <span class="icon-plus"></span>
+                        Timer invalidate
+                      </p>
+                    </li>
+
+                  </ul>
+                  <p><a href="">View Project</a></p>
+                </div>
+                  <div class="column width-5 offset-1">
+                    <img style="width:300px;" src="images/gifs/Project4.gif">
+                  </div>
+                </div>
+
+                
+
+              <!-- Project 5 -->
+              <div class="row">
+                <div class="column width-12" style="padding-top: 100px;">
+                  <div>
+                    <div id="boxes" class="divider"></div>
+                  </div>
+                </div>
+                <div class="column width-4 offset-2">
+                  <h2 class="post-title">Project 5 - Font Changer</h2>
+                  <p>Pressing a button changes the custom font to another custom font.</p>
+                  <h4>Utilized</h4>
+                  <ul>
+
+                    <li>
+                      <p class="custom-text">
+                        <span class="icon-plus"></span>
+                        UIFont
+                      </p>
+                    </li>
+
+                    <li>
+                      <p class="custom-text">
+                        <span class="icon-plus"></span>
+                        Custom Fonts
+                      </p>
+                    </li>
+
+                  </ul>
+                  <p><a href="">View Project</a></p>
+                </div>
+                  <div class="column width-5 offset-1">
+                    <img style="width:300px;" src="images/gifs/Project5.gif">
+                  </div>
+                </div>
+
+
+
+            <!-- Project 6 -->
+            <div class="row">
+              <div class="column width-12" style="padding-top: 100px;">
+                <div>
+                  <div id="boxes" class="divider"></div>
+                </div>
+              </div>
+              <div class="column width-4 offset-2">
+                <h2 class="post-title">Project 6 - TableView</h2>
+                <p>Creating a basic TableView</p>
+                <h4>Utilized</h4>
+                <ul>
+
+                  <li>
+                    <p class="custom-text">
+                      <span class="icon-plus"></span>
+                      UITableViewDelegate
+                    </p>
+                  </li>
+
+                  <li>
+                    <p class="custom-text">
+                      <span class="icon-plus"></span>
+                      UITableViewDataSource
+                    </p>
+                  </li>
+
+                </ul>
+                <p><a href="">View Project</a></p>
+              </div>
+                <div class="column width-5 offset-1">
+                  <img style="width:300px;" src="images/gifs/Project6.gif">
+                </div>
+              </div>
+
+
+
+            <!-- Project 7 -->
+            <div class="row">
+              <div class="column width-12" style="padding-top: 100px;">
+                <div>
+                  <div id="boxes" class="divider"></div>
+                </div>
+              </div>
+              <div class="column width-4 offset-2">
+                <h2 class="post-title">Project 7 - CollectionView</h2>
+                <p>Creating a basic CollectionView</p>
+                <h4>Utilized</h4>
+                <ul>
+
+                  <li>
+                    <p class="custom-text">
+                      <span class="icon-plus"></span>
+                      UICollectionViewDataSource
+                    </p>
+                  </li>
+
+                  <li>
+                    <p class="custom-text">
+                      <span class="icon-plus"></span>
+                      UICollectionViewDelegate
+                    </p>
+                  </li>
+
+                  <li>
+                    <p class="custom-text">
+                      <span class="icon-plus"></span>
+                      dequeueReusableCellWithReuseIdentifier
+                    </p>
+                  </li>
+
+                </ul>
+                <p><a href="">View Project</a></p>
+              </div>
+                <div class="column width-5 offset-1">
+                  <img style="width:300px;" src="images/gifs/Project7.gif">
+                </div>
+              </div>
+
+
+          <!-- Project 8 -->
+          <div class="row">
+            <div class="column width-12" style="padding-top: 100px;">
+              <div>
+                <div id="boxes" class="divider"></div>
+              </div>
+            </div>
+            <div class="column width-4 offset-2">
+              <h2 class="post-title">Project 8 - Play Local Video</h2>
+              <p>Play video that is saved locally in the app.</p>
+              <h4>Utilized</h4>
+              <ul>
+
+                <li>
+                  <p class="custom-text">
+                    <span class="icon-plus"></span>
+                    NSBundle.mainBundle
+                  </p>
+                </li>
+
+                <li>
+                  <p class="custom-text">
+                    <span class="icon-plus"></span>
+                    AVPlayer
+                  </p>
+                </li>
+
+              </ul>
+              <p><a href="">View Project</a></p>
+            </div>
+              <div class="column width-5 offset-1">
+                <img style="width:300px;" src="images/gifs/Project8.gif">
+              </div>
+            </div>
+
+
+            <!-- Project 9 -->
+            <div class="row">
+              <div class="column width-12" style="padding-top: 100px;">
+                <div>
+                  <div id="boxes" class="divider"></div>
+                </div>
+              </div>
+              <div class="column width-4 offset-2">
+                <h2 class="post-title">Project 9 - Play YouTube Video</h2>
+                <p>Play video that is on Youtube.</p>
+                <h4>Utilized</h4>
+                <ul>
+
+                  <li>
+                    <p class="custom-text">
+                      <span class="icon-plus"></span>
+                      YoutubeSourceParserKit
+                    </p>
+                  </li>
+
+                  <li>
+                    <p class="custom-text">
+                      <span class="icon-plus"></span>
+                      MediaPlayer
+                    </p>
+                  </li>
+
+                </ul>
+                <p><a href="">View Project</a></p>
+              </div>
+                <div class="column width-5 offset-1">
+                  <img style="width:300px;" src="images/gifs/Project9.gif">
+                </div>
+              </div>
+
+
+            <!-- Project 10 -->
+            <div class="row">
+              <div class="column width-12" style="padding-top: 100px;">
+                <div>
+                  <div id="boxes" class="divider"></div>
+                </div>
+              </div>
+              <div class="column width-4 offset-2">
+                <h2 class="post-title">Project 10 - Get Time</h2>
+                <p>Gets the current date and time to the second. Pressing the update button updates the date / time.</p>
+                <h4>Utilized</h4>
+                <ul>
+
+                  <li>
+                    <p class="custom-text">
+                      <span class="icon-plus"></span>
+                      NSDateFormatter
+                    </p>
+                  </li>
+
+                </ul>
+                <p><a href="">View Project</a></p>
+              </div>
+                <div class="column width-5 offset-1">
+                  <img style="width:300px;" src="images/gifs/Project10.gif">
+                </div>
+              </div>
+
+
+
+            <!-- Project 11 -->
+            <div class="row">
+              <div class="column width-12" style="padding-top: 100px;">
+                <div>
+                  <div id="boxes" class="divider"></div>
+                </div>
+              </div>
+              <div class="column width-4 offset-2">
+                <h2 class="post-title">Project 11 - Passing Data</h2>
+                <p>Gets the current date and time to the second. Pressing the update button updates the date / time.</p>
+                <h4>Utilized</h4>
+                <ul>
+
+                  <li>
+                    <p class="custom-text">
+                      <span class="icon-plus"></span>
+                      destinationViewController
+                    </p>
+                  </li>
+
+                </ul>
+                <p><a href="">View Project</a></p>
+              </div>
+                <div class="column width-5 offset-1">
+                  <img style="width:300px;" src="images/gifs/Project11.gif">
+                </div>
+              </div>
+
+
+            <!-- Project 12 -->
+            <div class="row">
+              <div class="column width-12" style="padding-top: 100px;">
+                <div>
+                  <div id="boxes" class="divider"></div>
+                </div>
+              </div>
+              <div class="column width-4 offset-2">
+                <h2 class="post-title">Project 12 - Slide To Dismiss</h2>
+                <p>Using UISwipeGestureRecognizer we can slide down to dismiss the keyboard.</p>
+                <h4>Utilized</h4>
+                <ul>
+
+                  <li>
+                    <p class="custom-text">
+                      <span class="icon-plus"></span>
+                      UISwipeGestureRecognizer
+                    </p>
+                  </li>
+
+                  <li>
+                    <p class="custom-text">
+                      <span class="icon-plus"></span>
+                      resignFirstResponder
+                    </p>
+                  </li>
+
+                </ul>
+                <p><a href="">View Project</a></p>
+              </div>
+                <div class="column width-5 offset-1">
+                  <img style="width:300px;" src="images/gifs/Project12.gif">
+                </div>
+              </div>
+
+
+            <!-- Project 13 -->
+            <div class="row">
+              <div class="column width-13" style="padding-top: 100px;">
+                <div>
+                  <div id="boxes" class="divider"></div>
+                </div>
+              </div>
+              <div class="column width-4 offset-2">
+                <h2 class="post-title">Project 13 - Image Picker</h2>
+                <p>Pressing a button will bring up the image picker. The user then chooses the image and it is shown in an image view.</p>
+                <h4>Utilized</h4>
+                <ul>
+
+                  <li>
+                    <p class="custom-text">
+                      <span class="icon-plus"></span>
+                      UIImagePickerController
+                    </p>
+                  </li>
+
+                  <li>
+                    <p class="custom-text">
+                      <span class="icon-plus"></span>
+                      UINavigationControllerDelegate
+                    </p>
+                  </li>
+
+                  <li>
+                    <p class="custom-text">
+                      <span class="icon-plus"></span>
+                      UIImagePickerControllerDelegate
+                    </p>
+                  </li>
+
+                  <li>
+                    <p class="custom-text">
+                      <span class="icon-plus"></span>
+                      UIImagePickerControllerSourceType
+                    </p>
+                  </li>
+                  
+
+                </ul>
+                <p><a href="">View Project</a></p>
+              </div>
+                <div class="column width-5 offset-1">
+                  <img style="width:300px;" src="images/gifs/Project13.gif">
+                </div>
+              </div>
+
+
+
+
+          <!-- Project 14 -->
+          <div class="row">
+            <div class="column width-13" style="padding-top: 100px;">
+              <div>
+                <div id="boxes" class="divider"></div>
+              </div>
+            </div>
+            <div class="column width-4 offset-2">
+              <h2 class="post-title">Project 14 - Pull to Refresh</h2>
+              <p>Sliding down on a table view refreshes the list.</p>
+              <h4>Utilized</h4>
+              <ul>
+
+                <li>
+                  <p class="custom-text">
+                    <span class="icon-plus"></span>
+                    UIRefreshControl
+                  </p>
+                </li>
+                
+
+              </ul>
+              <p><a href="">View Project</a></p>
+            </div>
+              <div class="column width-5 offset-1">
+                <img style="width:300px;" src="images/gifs/Project14.gif">
+              </div>
+            </div>
+
+
+
+            <!-- Project 15 -->
+            <div class="row">
+              <div class="column width-12" style="padding-top: 100px;">
+                <div>
+                  <div id="boxes" class="divider"></div>
+                </div>
+              </div>
+              <div class="column width-4 offset-2">
+                <h2 class="post-title">Project 15 - Delete Rearrange</h2>
+                <p>Deleting and rearranging cells in a table view.</p>
+                <h4>Utilized</h4>
+                <ul>
+
+                  <li>
+                    <p class="custom-text">
+                      <span class="icon-plus"></span>
+                      UITableView
+                    </p>
+                  </li>
+
+                  <li>
+                    <p class="custom-text">
+                      <span class="icon-plus"></span>
+                      canMoveRowAtIndexPath
+                    </p>
+                  </li>
+
+                  <li>
+                    <p class="custom-text">
+                      <span class="icon-plus"></span>
+                      moveRowAtIndexPath
+                    </p>
+                  </li>
+
+                </ul>
+                <p><a href="">View Project</a></p>
+              </div>
+                <div class="column width-5 offset-1">
+                  <img style="width:300px;" src="images/gifs/Project15.gif">
+                </div>
+              </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <div style="padding-bottom: 100px;"></div>
+      </div>
+      <!-- Content End -->
+
+      
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="footer-bottom">
+          <div class="row">
+            <div class="column width-12">
+              <div class="footer-bottom-inner center">
+                <p class="copyright pull-left clear-float-on-mobile">
+                  Andrew Garcia. <a href="mailto:drewgarcia23@gmail.com?Subject=Lets%20Talk" target="_top">drewgarcia23@gmail.com</a>
+                </p>
+                <ul class="social-list list-horizontal pull-right clear-float-on-mobile">
+                  <li><a target="_blank" href="https://twitter.com/drewg233"><span class="icon-twitter small"></span></a></li>
+                  <li><a target="_blank" href="https://www.instagram.com/drewgarcia23/"><span class="icon-instagram small"></span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer End -->
+
+    </div>
+  </div>
+
+  <!-- Js -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maps.googleapis.com/maps/api/js?v=3"></script>
+  <script src="js/timber.master.min.js"></script>
+</body>
+</html>
