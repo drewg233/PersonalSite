@@ -31,7 +31,26 @@
   text-transform: uppercase;
   margin-bottom: 0px;
 }
+.main_title {
+  color:#000; 
+  font-size: 6.5rem;
+}
+.top_main_swift {
+  height: 100vh; 
+  background: #F7F9FA;
+}
 
+@media only screen and (max-device-width: 480px) {
+  .about_section {
+    display: none;
+  }
+  .main_title {
+    font-size: 4.5rem;
+  }
+  .top_main_swift {
+    height: 90vh;
+  }
+}
 
 
 
